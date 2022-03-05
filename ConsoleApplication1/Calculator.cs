@@ -7,13 +7,9 @@ namespace ConsoleApplication1
         public static void Main(string[] Args)
         {
             var inputValid = false;
-
             var number = 0;
-
             string operation;
-
             Console.WriteLine("Please input an operation. +,-,* or / are valid");
-
             do
             {
                 operation = Console.ReadLine()?.Trim();
@@ -29,6 +25,8 @@ namespace ConsoleApplication1
                     Console.WriteLine("Please input a valid operation.");
                 }
             } while (!inputValid);
+
+            Console.WriteLine("Hello github");
 
         }
     }
